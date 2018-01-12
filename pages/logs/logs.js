@@ -21,6 +21,9 @@ Page({
     //     return util.formatTime(new Date(log))
     //   })
     // })
+    wx.showShareMenu({
+      withShareTicket: true
+    })
     this.Date()
   },
   Date:function(){
