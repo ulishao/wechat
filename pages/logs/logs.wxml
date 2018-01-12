@@ -1,0 +1,9 @@
+<!--logs.wxml-->
+<view class="container log-list">
+
+<view wx:for="{{datas}}"  wx:for-item="datas" wx:key="datas">
+    <view class='temp' style='top:{{datas.y}}px;left:{{datas.x}}px;font-size:{{datas.size}}px;opacity:{{datas.opacity}}'>{{datas.name}}</view>
+</view>
+   <view class='suiji'>今天{{dateText}}吃<text class='sty'>{{sty}}</text>!</view>
+   <button class='an' bindtap="{{false==switchs?'startBtn':'endBtn'}}">{{false==switchs?button:endButton}}</button>
+</view>

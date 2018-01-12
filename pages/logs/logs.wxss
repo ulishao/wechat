@@ -1,0 +1,25 @@
+
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.suiji{
+  margin-top: 150px;
+}
+.sty{
+
+  font-weight: 600
+}
+.temp{
+	position: absolute;
+	z-index: -1;
+	color: #777;
+}
+.an{
+   margin-top: 200px;
+   width: 100px;
+}
